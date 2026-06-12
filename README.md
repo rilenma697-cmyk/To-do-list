@@ -1,16 +1,134 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+To-Do List App is a task management web application built with React. It allows users to create, edit, complete, and delete tasks. The application also stores tasks in Local Storage, ensuring that task data remains available even after refreshing the browser.
 
-## React Compiler
+This project was developed to practice React Hooks, state management, event handling, and browser storage integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Add new tasks
+
+ Edit existing tasks
+
+ Delete tasks
+
+ Mark tasks as completed
+
+Filter tasks by status
+
+- All Tasks
+- Active Tasks
+- Completed Tasks
+
+ Clear all completed tasks
+
+ Save tasks using Local Storage
+
+
+## Tech Stack
+
+
+- React.js
+- Tailwind CSS
+
+### React Hooks
+
+- useState
+- useEffect
+
+### Storage
+
+- Browser Local Storage
+
+### Development Tools
+
+- Vite
+- Git
+- GitHub
+- VS Code
+
+## How It Works
+
+1. Users enter a task in the input field.
+2. Clicking **Add Task** creates a new task.
+3. Tasks are displayed in a task list.
+4. Users can:
+   - Edit tasks
+   - Delete tasks
+   - Mark tasks as completed
+5. Completed tasks can be removed using **Clear Completed**.
+6. All tasks are automatically saved to Local Storage and restored when the page reloads.
+
+## Project Structure
+
+text
+src/
+compoment
+│
+├── TodoApp.jsx
+├── App.jsx
+├── index.css
+│
+public/
+
+
+## Installation
+
+### Clone Repository
+
+
+git clone https://github.com/your-username/todo-app.git
+
+
+### Navigate to Project Folder
+
+
+cd todo-app
+
+
+### Install Dependencies
+
+npm install
+
+### Start Development Server
+
+
+npm run dev
+
+## Challenges & Learning
+
+During this project, I learned how to:
+
+- Manage application state using React Hooks
+- Persist data with Local Storage
+- Handle user input and events
+- Update and render lists dynamically
+- Build reusable and maintainable React components
+- Create responsive layouts using Tailwind CSS
+
+
+## Future Improvements
+
+- Add task categories
+- Add due dates
+- Add task priorities
+- Dark mode support
+- Search functionality
+- Drag and drop task sorting
+- Cloud database integration
+
+
+## Author
+
+**Rilen Ma**
+
+GitHub: https://github.com/your-github-username
+Gitlab https://git.clp.kr/anbschool/5th/nextgenit/todo-list-marilen.git
+
+
+## License
+
+This project is for learning and educational purposes.
